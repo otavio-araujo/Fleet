@@ -5,7 +5,7 @@ import { SignIn } from "@/screens/SignIn"
 export default function App() {
   return (
     <>
-      <StatusBar style="auto" />
+      <StatusBar style="dark" translucent backgroundColor="transparent" />
       <SignIn />
     </>
   )
