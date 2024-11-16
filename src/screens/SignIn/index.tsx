@@ -1,12 +1,13 @@
 import React from "react"
-import { View, Text } from "react-native"
+import backgroundImage from "@/assets/background.png"
 
-import { styles } from "./styles"
+import { Container, Title, Slogan } from "./styles"
 
 export function SignIn() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-    </View>
+    <Container source={require("@/assets/background.png")}>
+      <Title>Ignite Fleet</Title>
+      <Slogan>Gestão de uso de veículos</Slogan>
+    </Container>
   )
 }
