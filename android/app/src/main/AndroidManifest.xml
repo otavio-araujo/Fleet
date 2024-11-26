@@ -24,7 +24,6 @@
         <action android:name="android.intent.action.VIEW"/>
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
-        <data android:scheme="com.otavio_araujo.fleet"/>
         <data android:scheme="com.upcodingbr.ignitefleet"/>
       </intent-filter>
     </activity>
